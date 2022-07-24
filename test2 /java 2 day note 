@@ -1,0 +1,21 @@
+ 
+ Java Veriables Introduction 
+ IDE - Integrated Develpment Enviroment 
+  in IDE you can write a code, compile a code, debug code 
+
+  types of IDE: Intellij, Eclipse, Visial studio
+           In Intellij 
+ 1.Java project: contains source code and all related   
+   files for the application 
+ 2.Java package: is a folder where you can organize and group java 
+
+                  variable types 
+     Primitive types          Reference types 
+       boolean (True             string
+       byte                      array
+       char (A.B.C)              custom object
+       short                    
+       int 
+       long
+       float
+       double
