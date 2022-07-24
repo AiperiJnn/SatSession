@@ -1,0 +1,84 @@
+package firstpackage;
+
+public class Greetings {
+
+    public static void main(String[] args){
+        String greeting="Hello";
+        System.out.println(greeting+" Ms.Aiperi");
+
+        String day="Tuesday";
+        System.out.println("Today is "+day);
+
+    }
+}
+
+
+package firstpackage; 
+
+public class MultipleVariables {
+
+    public static void main(String [] args){
+         String studentName;
+         studentName="Aiperi";
+         String studentLastName;
+         studentLastName="Nurbekova";
+
+         int age =24;
+         System.out.println("Student name is "+(studentName)+" "+(studentLastName));
+         System.out.println("Student age is "+age);
+
+    }
+}
+
+
+package firstpackage;
+
+public class Starbucks {
+    public static void main (String [] args){
+        double price=2.25;
+        double tax=0.22;
+
+        System.out.println("- welcome to Starbucks.");
+        System.out.println("- What would you like to drink?");
+        System.out.println("- Coffee, please.");
+        System.out.println("- Here is your coffee");
+        System.out.println("- Your total is $"+(price+tax));
+    }
+
+
+
+    package firstpackage;
+
+public class Numbers {
+
+    public static void main(String [] args){
+        int num1, num2;
+        num1=7;
+        num2=10;
+
+        //Comment. Print: 7=10=17
+
+        System.out.println(num1+"+"+num2+"="+(num1+num2));
+    }
+}
+
+
+ackage firstpackage;
+
+public class PersonalInfo {
+    public static void main (String[] args){
+
+        long phoneNumber=3125671234L;
+
+        short studentId=101;
+
+        byte age=24;
+        System.out.println("My phone number is "+phoneNumber);
+        System.out.println("My age is "+age);
+        System.out.println("My student Id is "+studentId);
+
+        // String -> reference type
+        // Primitive -> byte, short, int, long,double
+    }
+}
+
